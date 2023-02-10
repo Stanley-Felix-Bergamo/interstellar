@@ -1,6 +1,8 @@
-# De Volta Para o Futuro <img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20Em andamento&color=red&style=for-the-badge"/>
+# Interstellar<img align="right" src="https://img.shields.io/static/v1?label=STATUS&message=Está %20Pronto&color=green&style=for-the-badge"/>
 
-
+<div align="center" >
+    <img width="725rem" src="https://servidor-estaticos-ten.vercel.app/interstellar.png" alt="imagem">
+</div> 
 <h2>💻 Tecnologias utilizadas</h2>
 O projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
 <br>
