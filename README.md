@@ -3,6 +3,9 @@
 <div align="center" >
     <img width="725rem" src="https://servidor-estaticos-ten.vercel.app/interstellar.png" alt="imagem">
 </div> 
+
+> Para ver o projeto rodando você pode acessar este [Link](https://interstellar-delta.vercel.app/).
+
 <h2>💻 Tecnologias utilizadas</h2>
 O projeto foi desenvolvido utilizando as seguintes tecnologias:<br>
 <br>
