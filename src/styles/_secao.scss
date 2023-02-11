@@ -39,9 +39,16 @@
             bottom: 100%;
             align-items: center;
             text-align: center;
-            padding-bottom: 41px;
+            padding-bottom: 2em;
+            
             @media (min-width: 768px) {
+                bottom: initial;
+                padding-bottom: initial;
+            }
+
+            @media (min-width: 1024px) {
                 bottom: 0;
+                padding-bottom: 15px;
             }
 
             &__clock {
@@ -77,9 +84,15 @@
                 text-transform: uppercase;
             }
             @media (min-width: 768px) {
-                padding-bottom: 7em;
+                padding-bottom: initial;
+                padding-bottom: 4rem;
+              
+            }
+            @media (min-width: 1024px) {
+                padding-bottom: 8em;
             }
         }
+
         &__texto {
             width: 100%;
         }
@@ -88,13 +101,11 @@
             background-color: transparent;
             display: grid;
             width: 100%;
-            height: 500px;
-            max-width: 800px;
-            margin: 0 auto;
-            gap: 1em;
-
+            max-width: 600px;
+            gap: 2.9rem;
             &__star {
                 grid-area: secao__conteudo__star;
+              
             }
             &__btn {
                 grid-area: secao__conteudo__btn;
@@ -109,6 +120,13 @@
                 "secao__conteudo__capa  secao__conteudo__texto"
                 "secao__conteudo__capa  secao__conteudo__star"
                 "secao__conteudo__capa  secao__conteudo__btn";
+        }
+
+        @media (min-width: 1024px) {
+            height: 480px;
+            max-width: 800px;
+            margin: 0 auto;
+            gap: 1.5em;
         }
     }
 }
